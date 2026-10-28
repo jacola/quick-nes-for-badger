@@ -1,0 +1,4 @@
+-r requirements.txt
+unicorn==2.1.4
+mpremote==1.29.0
+pyserial==3.5

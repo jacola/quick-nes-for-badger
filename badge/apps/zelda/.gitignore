@@ -1,0 +1,4 @@
+game.nes
+__pycache__/
+*.state
+*.tmp

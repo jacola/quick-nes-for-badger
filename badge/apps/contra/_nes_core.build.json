@@ -1,0 +1,14 @@
+{
+  "module": "_nes_core.mpy",
+  "sha256": "ae7cfcf86297f38d26ba37587aa59962f2b94847d3c2a4b5e7cc9da080883c38",
+  "bytes": 77942,
+  "mpy_version": "6.3",
+  "architecture": "armv7m",
+  "cpu": "cortex-m33",
+  "unaligned_access": false,
+  "optimization": "O2",
+  "source_sha256": "55353d5968d2b1f6c3c2cabe5f906869c288e1f4e395f5e8239f7e50632ae74e",
+  "quicknes_revision": "26bb785c9deddb66a17717b21bb4e328f03ade32",
+  "micropython_revision": "29d45e488c0c194014db7dc63dd974d11f393ef2",
+  "compiler": "arm-none-eabi-gcc (xPack GNU Arm Embedded GCC arm64) 15.2.1 20251203"
+}

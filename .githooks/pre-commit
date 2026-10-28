@@ -1,0 +1,10 @@
+#!/bin/sh
+# Opt in with: git config core.hooksPath .githooks
+set -eu
+if [ -x .venv/bin/python ]; then
+  exec .venv/bin/python tools/publication_audit.py
+elif command -v python3 >/dev/null 2>&1; then
+  exec python3 tools/publication_audit.py
+else
+  exec python tools/publication_audit.py
+fi
